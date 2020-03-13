@@ -1,0 +1,108 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "7d1e748f-a0b2-46f5-b82e-0fffff413b38": {
+        "id": "7d1e748f-a0b2-46f5-b82e-0fffff413b38",
+        "parent": null,
+        "name": "kokoinduu",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "695266a1-b9ee-4ff6-9e59-13f67bd8e2fd"
+        ],
+        "isRemovable": false,
+        "filePath": "kokoinduu"
+      },
+      "695266a1-b9ee-4ff6-9e59-13f67bd8e2fd": {
+        "id": "695266a1-b9ee-4ff6-9e59-13f67bd8e2fd",
+        "parent": "7d1e748f-a0b2-46f5-b82e-0fffff413b38",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "kokoinduu/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPIname1111post",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "7d1e748f-a0b2-46f5-b82e-0fffff413b38",
+    "openFiles": [
+      "695266a1-b9ee-4ff6-9e59-13f67bd8e2fd"
+    ],
+    "currentFileId": "695266a1-b9ee-4ff6-9e59-13f67bd8e2fd",
+    "resources": {
+      "apigusEast1sachithraAPIname1111post": {
+        "name": "apigusEast1sachithraAPIname1111post",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/1111": "0rjsnt",
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/1111",
+          "resourceName": "1111",
+          "resourceId": "0rjsnt",
+          "restMethod": "POST",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "Test",
+          "stageDeploymentId": "pdhrlw",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "kokoinduu",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1584082079867
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "kokoinduu",
+      "url": "https://github.com/Indunil1992/kokoinduu"
+    }
+  }
+}
